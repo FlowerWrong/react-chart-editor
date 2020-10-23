@@ -71,7 +71,7 @@ class EditableText extends Component {
       <input
         ref={this.getRef}
         type={type}
-        className={className || ''}
+        className={(className || '') + ' form-control'}
         value={text}
         onFocus={this.handleFocus}
         onChange={this.handleChange}

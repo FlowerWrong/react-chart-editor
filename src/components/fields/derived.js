@@ -154,9 +154,9 @@ export const TickFormat = connectToContainer(UnconnectedDropdownCustom, {
     if (plotProps.fullContainer.type === 'date') {
       plotProps.options = [
         {label: _('Default'), value: ''},
-        {label: _('Advanced (d3-time-format)'), value: '%x'},
+        {label: _('Advanced (d3-time-format)'), value: '%Y-%m-%d'},
       ];
-      plotProps.customOpt = '%x';
+      plotProps.customOpt = '%Y-%m-%d';
     } else {
       plotProps.options = [
         {label: _('Simple'), value: ''},
