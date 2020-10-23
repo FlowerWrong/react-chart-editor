@@ -2,7 +2,7 @@ import PlotlyFold from './PlotlyFold';
 import PlotlyPanel from './PlotlyPanel';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectRangeSelectorToAxis, getParsedTemplateString} from 'lib';
+import {connectRangeSelectorToAxis, getParsedTemplateString} from '../../lib';
 
 const RangeSelectorFold = connectRangeSelectorToAxis(PlotlyFold);
 

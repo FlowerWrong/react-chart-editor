@@ -1,5 +1,5 @@
-import {TRACE_TO_AXIS, SUBPLOT_TO_ATTR, subplotName} from 'lib/constants';
-import {capitalize, striptags} from 'lib';
+import {TRACE_TO_AXIS, SUBPLOT_TO_ATTR, subplotName} from '../lib/constants';
+import {capitalize, striptags} from '../lib';
 
 export default function getAllAxes(fullLayout) {
   const axes = [];

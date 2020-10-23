@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import RadioBlocks from '../widgets/RadioBlocks';
 import {Component} from 'react';
 import nestedProperty from 'plotly.js/src/lib/nested_property';
-import {adjustColorscale, connectToContainer} from 'lib';
+import {adjustColorscale, connectToContainer} from '../../lib';
 
 const CustomColorscalePicker = connectToContainer(UnconnectedColorscalePicker, {
   modifyPlotProps: (props, context, plotProps) => {

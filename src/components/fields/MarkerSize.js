@@ -1,11 +1,11 @@
 import Field from './Field';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 import RadioBlocks from '../widgets/RadioBlocks';
 import Numeric from './Numeric';
 import DataSelector from './DataSelector';
-import {MULTI_VALUED} from 'lib/constants';
+import {MULTI_VALUED} from '../../lib/constants';
 
 class UnconnectedMarkerSize extends Component {
   constructor(props, context) {

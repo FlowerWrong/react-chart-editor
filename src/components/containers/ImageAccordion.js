@@ -2,7 +2,7 @@ import PlotlyFold from './PlotlyFold';
 import {LayoutPanel} from './derived';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectImageToLayout} from 'lib';
+import {connectImageToLayout} from '../../lib';
 import {PanelMessage} from './PanelEmpty';
 
 const ImageFold = connectImageToLayout(PlotlyFold);

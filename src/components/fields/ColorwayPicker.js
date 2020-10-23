@@ -2,7 +2,7 @@ import ColorscalePickerWidget from '../widgets/ColorscalePicker';
 import Field from './Field';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 
 class UnconnectedColorwayPicker extends Component {
   render() {

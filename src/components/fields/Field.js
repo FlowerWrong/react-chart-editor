@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 import {Component} from 'react';
 import MenuPanel from '../containers/MenuPanel';
 import classnames from 'classnames';
-import {bem} from 'lib';
-import {getMultiValueText} from 'lib/constants';
+import {bem} from '../../lib';
+import {getMultiValueText} from '../../lib/constants';
 import {CloseIcon} from 'plotly-icons';
 
 export class FieldDelete extends Component {

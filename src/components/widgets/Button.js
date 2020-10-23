@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {bem} from 'lib';
+import {bem} from '../../lib';
 
 class Button extends Component {
   constructor(props) {
@@ -13,9 +13,9 @@ class Button extends Component {
     let classes = `button`;
 
     if (variant) {
-      classes += ` button--${variant}`;
+      classes += ` btn--${variant}`;
     } else {
-      classes += ` button--default`;
+      classes += ` btn--default`;
     }
 
     if (className) {

@@ -2,7 +2,7 @@ import Dropdown from './Dropdown';
 import Info from './Info';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {EDITOR_ACTIONS} from 'lib/constants';
+import {EDITOR_ACTIONS} from '../../lib/constants';
 import Button from '../widgets/Button';
 import {PlusIcon} from 'plotly-icons';
 import {
@@ -11,8 +11,8 @@ import {
   getAxisTitle,
   axisIdToAxisName,
   getParsedTemplateString,
-} from 'lib';
-import {PlotlySection} from 'components';
+} from '../../lib';
+import {PlotlySection} from '../../components';
 
 class UnconnectedAxisCreator extends Component {
   canAddAxis() {

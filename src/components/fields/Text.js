@@ -2,7 +2,7 @@ import Field from './Field';
 import TextInput from '../widgets/TextInput';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 
 export class UnconnectedText extends Component {
   render() {

@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import {Children, cloneElement, Component} from 'react';
 import SidebarGroup from './sidebar/SidebarGroup';
-import {bem} from 'lib';
-import sortMenu from 'lib/sortMenu';
+import {bem} from '../lib';
+import sortMenu from '../lib/sortMenu';
 
 class PanelsWithSidebar extends Component {
   constructor(props) {

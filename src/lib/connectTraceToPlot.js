@@ -10,7 +10,7 @@ import {
   getParsedTemplateString,
 } from '../lib';
 import {deepCopyPublic, setMultiValuedContainer} from './multiValues';
-import {EDITOR_ACTIONS, SUBPLOT_TO_ATTR} from 'lib/constants';
+import {EDITOR_ACTIONS, SUBPLOT_TO_ATTR} from '../lib/constants';
 
 export default function connectTraceToPlot(WrappedComponent) {
   class TraceConnectedComponent extends Component {

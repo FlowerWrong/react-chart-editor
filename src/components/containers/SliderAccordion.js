@@ -2,7 +2,7 @@ import PlotlyFold from './PlotlyFold';
 import TraceRequiredPanel from './TraceRequiredPanel';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectSliderToLayout} from 'lib';
+import {connectSliderToLayout} from '../../lib';
 
 const SliderFold = connectSliderToLayout(PlotlyFold);
 

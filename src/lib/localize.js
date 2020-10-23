@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {getDisplayName} from 'lib';
+import {getDisplayName} from '../lib';
 
 export default function localize(Comp) {
   class LocalizedComponent extends Component {

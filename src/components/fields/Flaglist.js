@@ -2,7 +2,7 @@ import Field from './Field';
 import FlaglistCheckboxGroup from '../widgets/FlaglistCheckboxGroup';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 
 export class UnconnectedFlaglist extends Component {
   render() {

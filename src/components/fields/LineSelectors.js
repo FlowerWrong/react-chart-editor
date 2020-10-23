@@ -2,8 +2,8 @@ import Dropdown from './Dropdown';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
 import nestedProperty from 'plotly.js/src/lib/nested_property';
-import {tooLight} from 'lib';
-import {COLORS, MULTI_VALUED} from 'lib/constants';
+import {tooLight} from '../../lib';
+import {COLORS, MULTI_VALUED} from '../../lib/constants';
 
 const strokeDashes = [
   {value: 'solid', strokeDasharray: ''},

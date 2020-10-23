@@ -1,9 +1,9 @@
 import {Component} from 'react';
 import PropTypes from 'prop-types';
 import {SearchIcon, ThumnailViewIcon, GraphIcon} from 'plotly-icons';
-import Modal from 'components/containers/Modal';
-import {traceTypeToPlotlyInitFigure, renderTraceIcon, plotlyTraceToCustomTrace} from 'lib';
-import {TRACES_WITH_GL} from 'lib/constants';
+import Modal from '../../components/containers/Modal';
+import {traceTypeToPlotlyInitFigure, renderTraceIcon, plotlyTraceToCustomTrace} from '../../lib';
+import {TRACES_WITH_GL} from '../../lib/constants';
 
 const renderActionItems = (actionItems, item) =>
   actionItems

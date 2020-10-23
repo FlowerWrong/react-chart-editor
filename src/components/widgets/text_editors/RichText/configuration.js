@@ -1,6 +1,6 @@
 import {INLINE_STYLE} from 'draft-js-utils';
 import {LinkIcon} from 'plotly-icons';
-import {COLORS} from 'lib/constants';
+import {COLORS} from '../../../../lib/constants';
 
 export const SUPERSCRIPT = 'SUPERSCRIPT';
 export const SUBSCRIPT = 'SUBSCRIPT';

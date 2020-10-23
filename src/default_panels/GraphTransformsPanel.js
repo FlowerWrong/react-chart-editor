@@ -11,7 +11,7 @@ import {
   FilterValue,
 } from '../components';
 import {connectAggregationToTransform} from '../lib';
-import {TRANSFORMABLE_TRACES} from 'lib/constants';
+import {TRANSFORMABLE_TRACES} from '../lib/constants';
 
 const AggregationSection = connectAggregationToTransform(PlotlySection);
 

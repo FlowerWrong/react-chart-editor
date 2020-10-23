@@ -11,7 +11,7 @@ import Info from './Info';
 import {UnconnectedColorPicker} from './ColorPicker';
 import {UnconnectedTextEditor} from './TextEditor';
 import {UnconnectedVisibilitySelect} from './VisibilitySelect';
-import {connectToContainer, getAllAxes, getAxisTitle, axisIdToAxisName} from 'lib';
+import {connectToContainer, getAllAxes, getAxisTitle, axisIdToAxisName} from '../../lib';
 import PropTypes from 'prop-types';
 import Text from './Text';
 

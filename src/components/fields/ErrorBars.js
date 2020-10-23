@@ -3,7 +3,7 @@ import {Component} from 'react';
 import {DataSelector, Radio, Numeric, MultiColorPicker} from '../index';
 import RadioBlocks from '../widgets/RadioBlocks';
 import Field from './Field';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 
 class ErrorBars extends Component {
   constructor(props, context) {

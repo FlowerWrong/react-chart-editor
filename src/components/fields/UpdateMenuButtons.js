@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import {Component} from 'react';
 import {Dropdown, TextEditor} from '../index';
 import Field from './Field';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 
 class UpdateMenuButtons extends Component {
   constructor(props, context) {

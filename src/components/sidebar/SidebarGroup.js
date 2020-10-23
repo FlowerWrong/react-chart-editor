@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {bem} from 'lib';
+import {bem} from '../../lib';
 import {AngleRightIcon} from 'plotly-icons';
 import SidebarItem from './SidebarItem';
 

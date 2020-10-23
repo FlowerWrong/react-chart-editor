@@ -1,6 +1,6 @@
 import {Component} from 'react';
 import PropTypes from 'prop-types';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 import Field from './Field';
 import RadioBlocks from '../widgets/RadioBlocks';
 import NumericInput from '../widgets/NumericInput';

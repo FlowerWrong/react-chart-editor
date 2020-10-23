@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {Component} from 'react';
 import DropdownWidget from '../widgets/Dropdown';
 import TextInput from '../widgets/TextInput';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 
 const operations = (_) => ({
   inequality: [

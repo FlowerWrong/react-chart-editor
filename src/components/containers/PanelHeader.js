@@ -1,4 +1,4 @@
-import Button from 'components/widgets/Button';
+import Button from '../../components/widgets/Button';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
 import {PlusIcon, ResizeUpIcon, ResizeDownIcon} from 'plotly-icons';

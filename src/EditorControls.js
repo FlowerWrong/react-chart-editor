@@ -23,9 +23,9 @@ import {
 import {EDITOR_ACTIONS} from './lib/constants';
 import isNumeric from 'fast-isnumeric';
 import nestedProperty from 'plotly.js/src/lib/nested_property';
-import {categoryLayout, traceTypes} from 'lib/traceTypes';
-import {ModalProvider} from 'components/containers';
-import {DEFAULT_FONTS} from 'lib/constants';
+import {categoryLayout, traceTypes} from './lib/traceTypes';
+import {ModalProvider} from './components/containers';
+import {DEFAULT_FONTS} from './lib/constants';
 
 class EditorControls extends Component {
   constructor(props, context) {

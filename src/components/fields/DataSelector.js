@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import {Component} from 'react';
 import Field from './Field';
 import nestedProperty from 'plotly.js/src/lib/nested_property';
-import {connectToContainer, maybeAdjustSrc, maybeTransposeData} from 'lib';
-import {TRANSFORMS_LIST} from 'lib/constants';
-import {getColumnNames} from 'lib/dereference';
+import {connectToContainer, maybeAdjustSrc, maybeTransposeData} from '../../lib';
+import {TRANSFORMS_LIST} from '../../lib/constants';
+import {getColumnNames} from '../../lib/dereference';
 
 export function attributeIsData(meta = {}) {
   return meta.valType === 'data_array' || meta.arrayOk;

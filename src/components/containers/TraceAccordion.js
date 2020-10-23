@@ -3,10 +3,10 @@ import TraceRequiredPanel from './TraceRequiredPanel';
 import PlotlyPanel from './PlotlyPanel';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {EDITOR_ACTIONS} from 'lib/constants';
-import {connectTraceToPlot, plotlyTraceToCustomTrace} from 'lib';
+import {EDITOR_ACTIONS} from '../../lib/constants';
+import {connectTraceToPlot, plotlyTraceToCustomTrace} from '../../lib';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import {traceTypes} from 'lib/traceTypes';
+import {traceTypes} from '../../lib/traceTypes';
 import {PanelMessage} from './PanelEmpty';
 
 const TraceFold = connectTraceToPlot(PlotlyFold);

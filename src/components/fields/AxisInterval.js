@@ -3,7 +3,7 @@ import Field from './Field';
 import Dropdown from '../widgets/Dropdown';
 import NumericInput from '../widgets/NumericInput';
 import PropTypes from 'prop-types';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 import {isDateTime} from 'plotly.js/src/lib';
 import {isJSDate} from 'plotly.js/src/lib/dates';
 

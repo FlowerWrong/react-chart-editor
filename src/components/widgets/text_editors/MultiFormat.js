@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import RichTextEditor from './RichText';
 import {isLaTeXExpr, htmlToLaTeX, laTeXToHTML, hasTextExpression} from './convertFormats';
 import classnames from 'classnames';
-import Button from 'components/widgets/Button';
+import Button from '../../../components/widgets/Button';
 
 class MultiFormatTextEditor extends Component {
   constructor(props, context) {

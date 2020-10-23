@@ -3,7 +3,7 @@ import {LayoutPanel} from './derived';
 import {PanelMessage} from './PanelEmpty';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectAnnotationToLayout, getParsedTemplateString} from 'lib';
+import {connectAnnotationToLayout, getParsedTemplateString} from '../../lib';
 
 const AnnotationFold = connectAnnotationToLayout(PlotlyFold);
 

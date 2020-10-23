@@ -2,7 +2,7 @@ import {Component} from 'react';
 import createPlotComponent from 'react-plotly.js/factory';
 import EditorControls from './EditorControls';
 import PropTypes from 'prop-types';
-import {DEFAULT_FONTS} from 'lib/constants';
+import {DEFAULT_FONTS} from './lib/constants';
 
 class PlotlyEditor extends Component {
   constructor(props) {

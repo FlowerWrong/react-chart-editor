@@ -1,6 +1,6 @@
 import {Component} from 'react';
 import PropTypes from 'prop-types';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 import Field from './Field';
 import Radio from './Radio';
 import {UnconnectedDropdown} from './Dropdown';

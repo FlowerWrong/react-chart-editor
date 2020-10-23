@@ -46,8 +46,8 @@ import {
   HoveronDropdown,
   LevelRendered,
 } from '../components/fields/derived';
-import {traceTypes} from 'lib/traceTypes';
-import localize from 'lib/localize';
+import {traceTypes} from '../lib/traceTypes';
+import localize from '../lib/localize';
 
 const allTraceTypes = traceTypes(localize).map(({value}) => value);
 

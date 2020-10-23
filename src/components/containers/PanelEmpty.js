@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import {Component} from 'react';
 import {ChartLineIcon} from 'plotly-icons';
-import {bem} from 'lib';
+import {bem} from '../../lib';
 
 export class PanelMessage extends Component {
   render() {

@@ -2,7 +2,7 @@ import Drop from '../widgets/Dropzone';
 import Field from './Field';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 
 export class UnconnectedDropzone extends Component {
   render() {

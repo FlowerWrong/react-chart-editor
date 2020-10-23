@@ -2,8 +2,8 @@ import PlotlyFold from './PlotlyFold';
 import {LayoutPanel} from './derived';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectShapeToLayout} from 'lib';
-import {COLORS} from 'lib/constants';
+import {connectShapeToLayout} from '../../lib';
+import {COLORS} from '../../lib/constants';
 import {PanelMessage} from './PanelEmpty';
 
 const ShapeFold = connectShapeToLayout(PlotlyFold);

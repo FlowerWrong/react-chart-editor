@@ -1,7 +1,7 @@
 import Field from './Field';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
-import {connectToContainer} from 'lib';
+import {connectToContainer} from '../../lib';
 import RadioBlocks from '../widgets/RadioBlocks';
 import MultiColorPicker from './MultiColorPicker';
 import ColorscalePicker from './ColorscalePicker';
@@ -10,7 +10,7 @@ import Radio from './Radio';
 import Info from './Info';
 import DataSelector from './DataSelector';
 import VisibilitySelect from './VisibilitySelect';
-import {MULTI_VALUED, COLORS} from 'lib/constants';
+import {MULTI_VALUED, COLORS} from '../../lib/constants';
 
 class UnconnectedMarkerColor extends Component {
   constructor(props, context) {

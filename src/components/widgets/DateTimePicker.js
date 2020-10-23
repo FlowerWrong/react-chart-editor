@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import {Component} from 'react';
 import TextInput from './TextInput';
 import Dropdown from './Dropdown';
-import {MULTI_VALUED_PLACEHOLDER} from 'lib/constants';
+import {MULTI_VALUED_PLACEHOLDER} from '../../lib/constants';
 
 const testDate = '2000-01-01';
 const testTime = '00:00';

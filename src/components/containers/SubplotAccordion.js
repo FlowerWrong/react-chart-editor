@@ -8,8 +8,8 @@ import {
   connectNonCartesianSubplotToLayout,
   getSubplotTitle,
   capitalize,
-} from 'lib';
-import {TRACE_TO_AXIS, SUBPLOT_TO_ATTR} from 'lib/constants';
+} from '../../lib';
+import {TRACE_TO_AXIS, SUBPLOT_TO_ATTR} from '../../lib/constants';
 
 const TraceFold = connectTraceToPlot(PlotlyFold);
 const NonCartesianSubplotFold = connectNonCartesianSubplotToLayout(PlotlyFold);
