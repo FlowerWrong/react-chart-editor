@@ -13,9 +13,9 @@ class Button extends Component {
     let classes = `button`;
 
     if (variant) {
-      classes += ` button--${variant}`;
+      classes += ` btn--${variant}`;
     } else {
-      classes += ` button--default`;
+      classes += ` btn--default`;
     }
 
     if (className) {
