@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/locales/en.js"],"names":["foo"],"mappings":";;;;;;eAAe;AACbA,EAAAA,GAAG,EAAE;AADQ,C","sourcesContent":["export default {\n  foo: 'bar',\n};\n"],"file":"en.js"}
