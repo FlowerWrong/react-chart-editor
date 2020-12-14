@@ -55,6 +55,7 @@ const StyleMapsPanel = (props, {localize: _}) => (
           {label: _('USA'), value: 'usa'},
           {label: _('Europe'), value: 'europe'},
           {label: _('Asia'), value: 'asia'},
+          {label: _('China'), value: 'china'},
           {label: _('Africa'), value: 'africa'},
           {label: _('North America'), value: 'north america'},
           {label: _('South America'), value: 'south america'},

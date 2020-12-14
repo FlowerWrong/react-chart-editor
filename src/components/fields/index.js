@@ -7,6 +7,7 @@ import ColorwayPicker from './ColorwayPicker';
 import ColorArrayPicker from './ColorArrayPicker';
 import Dropdown from './Dropdown';
 import Dropzone from './Dropzone';
+import GeoJson from './GeoJson';
 import FontSelector from './FontSelector';
 import Flaglist from './Flaglist';
 import Info from './Info';
@@ -70,6 +71,7 @@ export {
   GroupCreator,
   UpdateMenuButtons,
   Dropzone,
+  GeoJson,
   TextPosition,
   MarkerSize,
   MarkerColor,

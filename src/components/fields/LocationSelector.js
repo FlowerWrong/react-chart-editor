@@ -35,6 +35,10 @@ class UnconnectedLocation extends Component {
               label: _('USA State Abbreviations (e.g. NY)'),
               value: 'USA-states',
             },
+            {
+              label: _('China province ISO 3166-2:CN (e.g. TW)'),
+              value: 'ISO 3166-2:CN',
+            }
           ]}
         />
       </>
