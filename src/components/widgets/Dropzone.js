@@ -28,7 +28,7 @@ class Dropzone extends Component {
         <div className="dropzone-container__image" style={{backgroundImage: `url(${value})`}} />
       );
     }
-    if (this.props.fileType === 'geojson') {
+    if (this.props.fileType === 'geojson' && typeof value !== 'string') {
       return (
         <div className="dropzone-container__message">
           <p>{_('GeoJSON loaded!')}</p>
