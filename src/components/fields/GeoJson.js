@@ -2,14 +2,14 @@ import Field from './Field';
 import PropTypes from 'prop-types';
 import {Component} from 'react';
 import {connectToContainer} from 'lib';
-import DropdownWidget from '../widgets/Dropdown';
+import CreatableDropdownWidget from '../widgets/CreatableDropdown';
 
 export class UnconnectedGeoJson extends Component {
 
   render() {
     return (
       <Field {...this.props}>
-        <DropdownWidget
+        <CreatableDropdownWidget
           backgroundDark={this.props.backgroundDark}
           options={this.props.options}
           value={this.props.fullValue}

@@ -37,8 +37,7 @@ const GraphCreatePanel = (props, {localize: _, setPanel}) => {
         label={_('GeoJSON')}
         attr="geojson"
         options={[
-          {label: _('China'), value: 'https://chartshub.oss-cn-shenzhen.aliyuncs.com/geojson/china.json'},
-          {label: _('USA'), value: 'https://chartshub.oss-cn-shenzhen.aliyuncs.com/geojson/usa.json'},
+          {label: _('China'), value: 'https://chartshub.oss-cn-shenzhen.aliyuncs.com/geojson/china.json'}
         ]}
         clearable={true}
       />
