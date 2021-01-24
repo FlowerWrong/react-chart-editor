@@ -109,7 +109,7 @@ export const subplotName = (type, _) =>
     polar: _('Polar'),
   }[type]);
 
-export const TRANSFORMS_LIST = ['filter', 'groupby', 'aggregate', 'sort'];
+export const TRANSFORMS_LIST = ['filter', 'groupby', 'aggregate', 'sort', 'pct_change'];
 
 export const TRANSFORMABLE_TRACES = [
   'scatter',

@@ -22,6 +22,7 @@ class TransformAccordion extends Component {
       {label: _('Split'), type: 'groupby'},
       {label: _('Aggregate'), type: 'aggregate'},
       {label: _('Sort'), type: 'sort'},
+      {label: _('PctChange'), type: 'pct_change'},
     ];
 
     const transformBy =
@@ -77,7 +78,7 @@ class TransformAccordion extends Component {
               const key = `transforms[${transformIndex}]`;
 
               const payload = {type};
-              if (type === 'filter') {
+              if (type === 'filter' || type === 'pct_change') {
                 payload.target = [];
                 payload.targetsrc = null;
               } else if (type !== 'sort') {
@@ -123,6 +124,12 @@ class TransformAccordion extends Component {
                 <strong>{_('Sort')}</strong>{' '}
                 {_(
                   ' transforms allow you to sort a trace, so as to control marker overlay or line connection order.'
+                )}
+              </p>
+              <p>
+                <strong>{_('PctChange')}</strong>{' '}
+                {_(
+                  ' transforms allow you to pct_change a trace, use "first" or "prev" calcType.'
                 )}
               </p>
             </div>
