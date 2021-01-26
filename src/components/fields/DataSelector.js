@@ -94,6 +94,9 @@ export class UnconnectedDataSelector extends Component {
     update[this.srcAttr] = maybeAdjustSrc(adjustedValue, this.srcAttr, this.props.container.type, {
       fromSrc: this.context.srcConverters ? this.context.srcConverters.fromSrc : null,
     });
+    if (this.props.container.type === 'pct_change') {
+      update[this.props.attr] = update[this.srcAttr]
+    }
 
     if (this.props.container.type) {
       // this means we're at the top level of the trace

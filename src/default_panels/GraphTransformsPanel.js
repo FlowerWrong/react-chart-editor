@@ -79,6 +79,13 @@ const GraphTransformsPanel = (props, {localize: _}) => {
         <DataSelector label={_('By')} attr="groups" />
 
         <DataSelector label={_('Target')} attr="target" />
+        <Radio
+          attr="calcType"
+          options={[
+            {label: _('First'), value: 'first'},
+            {label: _('Prev'), value: 'prev'},
+          ]}
+        />
         <FilterOperation label={_('Operator')} attr="operation" />
         <FilterValue label={_('Value')} attr="value" />
 

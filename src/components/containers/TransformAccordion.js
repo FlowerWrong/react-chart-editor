@@ -78,9 +78,13 @@ class TransformAccordion extends Component {
               const key = `transforms[${transformIndex}]`;
 
               const payload = {type};
-              if (type === 'filter' || type === 'pct_change') {
+              if (type === 'filter') {
                 payload.target = [];
                 payload.targetsrc = null;
+              } else if (type === 'pct_change') {
+                payload.target = null;
+                payload.targetsrc = null;
+                payload.calcType = null;
               } else if (type !== 'sort') {
                 payload.groupssrc = null;
                 payload.groups = null;
